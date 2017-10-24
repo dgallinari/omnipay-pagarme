@@ -43,21 +43,21 @@ For general usage instructions, please see the main [Omnipay](https://github.com
   // Create a credit card object
   // This card can be used for testing.
   $card = new CreditCard(array(
-              'firstName'    => 'Example',
-              'lastName'     => 'Customer',
-              //'name'         => 'Example Customer',
-              'birthday'     => '1988-02-28',
-              'gender'       => 'M',
-              'number'       => '4242424242424242',
-              'expiryMonth'  => '01',
-              'expiryYear'   => '2020',
-              'cvv'          => '123',
-              'email'        => 'customer@example.com',
-              'address1'     => 'Street name, Street number, Complementary',
-              'address2'     => 'Neighborhood',
-              'postcode'     => '05443100',
-              'phone'        => '19 3242 8855',
-              'holder_document_number' => '246.375.149-23', // CPF or CNPJ
+            'firstName'    => 'Example',
+            'lastName'     => 'Customer',
+            //'name'         => 'Example Customer',
+            'birthday'     => '1988-02-28',
+            'gender'       => 'M',
+            'number'       => '4242424242424242',
+            'expiryMonth'  => '01',
+            'expiryYear'   => '2020',
+            'cvv'          => '123',
+            'email'        => 'customer@example.com',
+            'address1'     => 'Street name, Street number, Complementary',
+            'address2'     => 'Neighborhood',
+            'postcode'     => '05443100',
+            'phone'        => '19 3242 8855',
+            'holder_document_number' => '246.375.149-23', // CPF or CNPJ
   ));
 
   // Do an authorize transaction on the gateway
